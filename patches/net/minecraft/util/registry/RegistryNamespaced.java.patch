@@ -1,0 +1,19 @@
+--- ../src-base/minecraft/net/minecraft/util/registry/RegistryNamespaced.java
++++ ../src-work/minecraft/net/minecraft/util/registry/RegistryNamespaced.java
+@@ -5,8 +5,16 @@
+ import java.util.Iterator;
+ import java.util.Map;
+ import javax.annotation.Nullable;
++
++import net.minecraft.block.Block;
++import net.minecraft.item.Item;
+ import net.minecraft.util.IObjectIntIterable;
+ import net.minecraft.util.IntIdentityHashBiMap;
++import net.minecraftforge.fml.common.FMLLog;
++import org.bukkit.Material;
++import red.mohist.Mohist;
++import red.mohist.api.ServerAPI;
++import red.mohist.i18n.Message;
+ 
+ public class RegistryNamespaced<K, V> extends RegistrySimple<K, V> implements IObjectIntIterable<V>
+ {
