@@ -57,3 +57,4 @@ https://github.com/PFCraft/Mohist/blob/master/Mohist%E5%A2%A8%E5%AD%A4%E8%93%9D%
 致以最美好的祝愿。//请提交pr来添加名单
 
 - hs_err
+- lliioollcn
